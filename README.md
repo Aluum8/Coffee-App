@@ -1,22 +1,70 @@
-<<<<<<< HEAD
-# React + Vite
+# ☕ CaféFlow – Smart Café Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CaféFlow is a modern QR-based café and restaurant management system designed to improve ordering, communication, and workflow efficiency between customers, staff, and owners.
 
-Currently, two official plugins are available:
+Customers can scan a QR code placed on their table to access a digital menu, place orders instantly, and track their order status in real time. Staff manage incoming orders through a live dashboard, while owners have full control over menus, tables, and operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 👤 Customer Side
+- QR code table scanning
+- Digital menu access (no app required)
+- Place orders instantly
+- Real-time order status updates
 
-Note: This will impact Vite dev & build performances.
+### 🧑‍🍳 Staff Dashboard
+- Receive live orders
+- Update order status (received → preparing → ready)
+- View table occupancy
+- Manage customer requests
 
-## Expanding the ESLint configuration
+### 🧑‍💼 Owner/Admin Panel
+- Manage menu items (add/edit/delete)
+- Control prices and availability
+- Monitor tables and staff activity
+- Full operational overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Coffee-App
->>>>>>> 4770297d1632e88c77ff584936feada1b28f62ea
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Firebase (Authentication + Firestore)
+- Real-time database updates
+- Tailwind CSS
+- Vite
+- QR Code integration
+
+---
+
+## ⚡ Key Highlights
+
+- Fully real-time system (no page refresh needed)
+- Designed for cafés, restaurants, and small businesses
+- Mobile-friendly and responsive UI
+- No app installation required for customers
+- Scalable SaaS architecture
+
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots here for better presentation)*
+
+Example:
+- Customer Menu Page
+- Staff Dashboard
+- Order Tracking UI
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Aluum8/Coffee-App.git
+cd Coffee-App
+npm install
+npm run dev
